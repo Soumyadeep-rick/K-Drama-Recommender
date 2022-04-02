@@ -1,3 +1,4 @@
+import joblib
 import pandas as pd
 import streamlit as st 
 from scipy import spatial
@@ -22,6 +23,8 @@ df1 = df1.drop(columns=['First Aired','Last Aired','Air Day 1_Saturday','Air Day
 name = df1[['Name']]
 name = name.head(10)
 df2 = df1.drop(columns=['Name'],axis = 1)
+
+@st.cache()
 def recm(name, n):
     idx = df1[df1['Name'] == name].index[0]
     dist = pd.DataFrame(data = df2.index)
