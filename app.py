@@ -1,17 +1,17 @@
 import pandas as pd
 import numpy as np
-from scipy import spatial
-import matplotlib.pyplot as plt
 import streamlit as st 
+from scipy import spatial
 
 st.title("S&V's") 
 st.header("K-Drama Recommender")
 st.sidebar.header("About")
-st.sidebar.markdown("This websote allows you to")
+st.sidebar.markdown("This website allows you to get K-Drama recommendation of your choice.")
 st.sidebar.subheader("Made By")
 st.sidebar.info("Soumyadeep")
 st.sidebar.success("Vaishnavi")
-
+st.sidebar.subheader("Special Thanks To")
+st.sidebar.warning("Shreyansh")
 
 df = pd.read_csv('DatasetK.csv')
 df= df.dropna(how='any', axis=0)
@@ -40,4 +40,5 @@ if(st.button("Get Recommendation")):
     df4.sort_values(by='distance' , inplace= True)
     df4.reset_index(drop=True, inplace=True)
     df4 = df4[['Name', 'Year of release', 'Network', 'Rating']]
+    df4.index = df4.index + 1
     st.table(df4)
