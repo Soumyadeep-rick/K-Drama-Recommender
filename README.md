@@ -1,6 +1,6 @@
 # K-Drama-Recommender
 
-A simple K-Drama Recommendation system.
+A simple K-Drama Recommendation system made with [Streamlit.](https://streamlit.io/)
 <br><br>
 Simply select the K-Drama you want to get recommendations of and the number of recommmendations via the slider and click <b>Get Recommendations.</b>
 <br><br>
