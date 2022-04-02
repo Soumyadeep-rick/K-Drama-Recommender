@@ -1,4 +1,4 @@
-# K-Drama-Recommender [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/Soumyadeep-rick/K-Drama-Recommender)
+# K-Drama-Recommender
 
 A simple K-Drama Recommendation system.
 <br><br>
