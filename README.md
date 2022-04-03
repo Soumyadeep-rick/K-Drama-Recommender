@@ -10,7 +10,6 @@ Simply select the K-Drama you want to get recommendations of and the number of r
 <br><br>
 This App uses dataset downloaded from [Kaggle.](https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist)
 <br><br>
-Made by [Soumyadeep]<a target="_blank" rel="noopener noreferrer" href="https://github.com/Soumyadeep-rick"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="react" width="25" height="25" style="max-width: 100%;"></a> and [Vaishnavi](https://github.com/vaeeshnavee)
+Made by [Soumyadeep](https://github.com/Soumyadeep-rick) and [Vaishnavi](https://github.com/vaeeshnavee)
 <br>
 Special Thanks to [Shreyansh](https://shrey208.github.io)
-
