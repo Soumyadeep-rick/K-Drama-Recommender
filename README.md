@@ -6,7 +6,7 @@ Simply select the K-Drama you want to get recommendations of and the number of r
 <br><br>
 <b>Screenshot</b>
 <br>
-![Screenshot](https://github.com/Soumyadeep-rick/K-Drama-Recommender/blob/ddd41c23cddf623dedac956a68887e5de726ef9f/ss.png)
+![Screenshot](https://github.com/Soumyadeep-rick/K-Drama-Recommender/blob/97b04f940f6d58b0a5c5ce877cef479b22d55a65/ss.png)
 <br><br>
 This App uses dataset downloaded from [Kaggle.](https://www.kaggle.com/datasets/chanoncharuchinda/top-100-korean-drama-mydramalist)
 <br><br>
