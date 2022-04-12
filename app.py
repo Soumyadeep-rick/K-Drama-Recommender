@@ -10,7 +10,7 @@ st.sidebar.subheader("Made By")
 st.sidebar.info("Soumyadeep")
 st.sidebar.success("Vaishnavi")
 st.sidebar.subheader("Special Thanks To")
-st.sidebar.warning("Shreyansh")
+st.sidebar.warning("[Shreyansh](https://shrey208.github.io/)")
 
 df = pd.read_csv('DatasetK.csv')
 df= df.dropna(how='any', axis=0)
